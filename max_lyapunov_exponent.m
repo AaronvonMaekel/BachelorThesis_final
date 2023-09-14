@@ -78,7 +78,7 @@ pmesh = get_model_attributes("benchmark");
     tauerr= nan(length(Taumesh),1);
     i=1;
     for Tau_p=Taumesh
-        x_i=create_time_series("benchmark",p,0,n,NaN,NaN);    
+        x_i=create_time_series("benchmark",pm,0,n,NaN,NaN);    
         
         %method2
         init_value=x_i(1);
