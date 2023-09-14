@@ -3,7 +3,7 @@ nmesh=round(logspace(2,5,10));
 edim=nan(1,length(nmesh));
 i=1;
 for n=nmesh
-    xt=create_time_series("benchmark",1.1,0,n,0,NaN);
+    xt=create_time_series("benchmark",2.3,0,n,0,NaN);
 [~,~,edim(i)] = phaseSpaceReconstruction(xt,1);
 i=i+1;
 end

@@ -61,7 +61,7 @@ xlim([pmesh(1) pmesh(end)])
 %%  variable initialisation
 n=1000000;
 
-p=2.56;% wir fixieren einen Parameter 
+p=2.29;% wir fixieren einen Parameter 
 d0 =1e-15;%bestimmt durch präzision der matlab dezimaldarstellung plus Überprüfung, dass initialwerte verschieden sind
 Tau = 48;
 pmesh = get_model_attributes("benchmark");
