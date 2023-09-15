@@ -482,7 +482,7 @@ hold on;
 semilogy(1:3,[ mean(lya2D1000(2:end,:),"all") mean(lya2D100(2:end,:),"all") mean(lya2D10(2:end,:),"all")],Marker="+");
 hold off;
 xlabel("SNR")
-ylabel("Abweichung")
+ylabel("\langle e_{\lambda_{max}} \rangle")
 legend("Entkopplung","Normalfall",Location="southeast")
 xticklabels([ "1000" "100" "10"])
 xticks(1:(length(noisemesh)-1))
